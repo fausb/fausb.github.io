@@ -97,7 +97,7 @@ function saveData(){
     //Saving firma 
     localStorage.setItem('dni_firma', dni.firma)
 
-    axios.post('https://mrz-text-generator.herokuapp.com/generate', mrz_data).then(response => {
+    axios.post('https://mrz-generator.herokuapp.com/generate', mrz_data).then(response => {
         localStorage.setItem('dni_mrz', response.data.code);
         const button = document.querySelector("#save-btn");
         setTimeout(() => {
