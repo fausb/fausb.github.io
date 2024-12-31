@@ -2,7 +2,7 @@
   "name": "Mi Argentina",
   "theme_color": "#31baec",
   "background_color": "#31baec",
-  "display": "fullscreen",
+  "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
   "start_url": "/index.html"
